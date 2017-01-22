@@ -2,7 +2,7 @@
   'foreachlodash':
     'prefix': 'forEach'
     'body': '''
-    <% _.forEach(${1: values}, function (${2: value}){  %>
+    <% _.forEach(${1:values}, function (${2:value}){  %>
       ${3}
     <% }) %>
     '''
