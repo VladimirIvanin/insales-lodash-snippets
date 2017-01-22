@@ -1,0 +1,23 @@
+{
+  "name": "insales-lodash-snippets",
+  "version": "0.0.0",
+  "description": "insales snippets for lodash",
+  "keywords": [
+    "lodash",
+    "insales"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VladimirIvanin/insales-lodash-snippets.git"
+  },
+  "license": "MIT",
+  "engines": {
+    "atom": ">=0.174.0 <2.0.0"
+  },
+  "dependencies": {},
+  "readmeFilename": "README.md",
+  "bugs": {
+    "url": "https://github.com/VladimirIvanin/insales-lodash-snippets/issues"
+  },
+  "homepage": "https://github.com/VladimirIvanin/insales-lodash-snippets#readme"
+}

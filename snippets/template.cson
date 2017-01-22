@@ -1,0 +1,45 @@
+'.liquid, .html':
+  'foreachlodash':
+    'prefix': 'forEach'
+    'body': '''
+    <% _.forEach(values, function (value){  %>
+      ${1}
+    <% }) %>
+    '''
+
+  'console.log(obj)':
+    'prefix': 'conlogobj'
+    'body': '''
+    <% console.log(obj); %>
+    '''
+
+  'directive':
+    'prefix': 'directive'
+    'body': '''
+    <% ${1} %>
+    '''
+
+  'if directive':
+    'prefix': 'ifdir'
+    'body': '''
+    <% if(${1}){ %>
+      ${2}
+    <% } %>
+    '''
+
+  'if else directive':
+    'prefix': 'ifeldir'
+    'body': '''
+    <% if(${1}){ %>
+      ${2}
+    <% }else{ %>
+      ${3}
+    <% } %>
+    '''
+
+  'variable':
+    'prefix': 'variable'
+    'body': '''
+    <%= ${1} %>
+    '''
+
