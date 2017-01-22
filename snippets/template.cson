@@ -1,9 +1,9 @@
-'.liquid, .html':
+'.liquid, .html, .jade':
   'foreachlodash':
     'prefix': 'forEach'
     'body': '''
-    <% _.forEach(values, function (value){  %>
-      ${1}
+    <% _.forEach(${1: values}, function (${2: value}){  %>
+      ${3}
     <% }) %>
     '''
 
@@ -11,6 +11,12 @@
     'prefix': 'conlogobj'
     'body': '''
     <% console.log(obj); %>
+    '''
+
+  'lodash comment':
+    'prefix': 'comlodash'
+    'body': '''
+    <% /* ${1} */ %>
     '''
 
   'directive':
